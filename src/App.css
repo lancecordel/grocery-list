@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.additem{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  font-size: 11px;
+  border-top: 1px solid;
+  width:190px;
+}
+#inputDiv{
+  text-align: right;
+  width: 140px;
+}
+
+.item{
+  flex-direction: column;
+  padding: 8px;
+  text-align: left;
+  font-size: 11px;
+  border-top: 1px solid;
+}
+
+#layout{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid;
+  padding: 5px;
+}
+input{
+  text-align: right;
+  width: 100px;
+  height: 9px;
+  margin:5;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid;
+}
+
+p{
+  margin:0;
+}
+
+button{
+  margin-top: 5px;
+  width: 105px;
+  border-radius: 5px;
+}
